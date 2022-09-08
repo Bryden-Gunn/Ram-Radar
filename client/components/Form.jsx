@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
-import { useDispatch } from 'react-redux'
+import { addRams } from '../apiClient'
+
 // ADD SLICE...
 
 function Form() {
-  const dispatch = useDispatch()
   const [form, setForm] = useState({
-    numberPlate: '',
+    plate: '',
     latitude: '',
     longitude: '',
     month: '',
@@ -21,7 +21,15 @@ function Form() {
 
   async function handleSubmit(event) {
     event.preventDefault()
-    // DISPATCH SLICES...
+
+    addRams(form)
+      .then(() => {
+        console.log()
+      })
+      .catch((err) => {
+        console.error(err)
+      })
+    // navigate('/')
   }
 
   return (
@@ -40,13 +48,13 @@ function Form() {
         </div>
 
         <div>
-          <label htmlFor="numberplate">Number Plate</label>
+          <label htmlFor="plate">Number Plate</label>
           <input
             type="text"
-            name="numberplate"
+            name="plate"
             placeholder="Enter Number plate.."
             onChange={handleChange}
-            value={form.numberPlate}
+            value={form.plate}
           />
         </div>
 
@@ -75,9 +83,9 @@ function Form() {
         <div>
           <label htmlFor="month">Month</label>
           <input
-            type="month"
+            type="test"
             name="month"
-            placeholder=""
+            placeholder="Enter Month.."
             onChange={handleChange}
             value={form.month}
           />
