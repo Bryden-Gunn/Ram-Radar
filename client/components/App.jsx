@@ -1,17 +1,17 @@
 import React, { useEffect } from 'react'
-import { getFruits } from '../apiClient'
+import { getRams } from '../apiClient'
 
 function App() {
   useEffect(() => {
-    getFruits()
-      .then((fruits) => {
-        console.log(fruits.body)
+    getRams()
+      .then((rams) => {
+        console.log(rams.body)
       })
       .catch((err) => console.err(err.message))
   })
   return (
     <div>
-      <h1>This is a template with fruits!</h1>
+      <h1>This is a template for Rams!</h1>
     </div>
   )
 }
