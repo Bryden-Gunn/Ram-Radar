@@ -4,6 +4,7 @@
 Project objective = A platform where users can view on a map different Ram incidents in Auckland 
 
 FIGMA PLANNING FILE = https://www.figma.com/file/2VGg9FfUxAnQAatUIaN8Ei/RAMDAR?node-id=0%3A1
+CANVA PRESENTATION FILE = https://www.canva.com/design/DAFLosLz8do/x8As3whRgSL5lN6P6Jp8Lg/view?utm_content=DAFLosLz8do&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
 
 USER EXPERIENCE: 
 
