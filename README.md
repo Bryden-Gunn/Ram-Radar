@@ -31,4 +31,6 @@ db "rams"
 - longitude = number 
 - goods = "string"
 
+CHANGES HISTORY : (please log your changes) 
+
 
