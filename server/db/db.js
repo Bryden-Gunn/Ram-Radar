@@ -3,9 +3,11 @@ const config = require('./knexfile')[environment]
 const connection = require('knex')(config)
 
 module.exports = {
-  getFruits,
+  getRams,
 }
 
-function getFruits(db = connection) {
-  return db('fruits').select()
+function getRams(db = connection) {
+  return db('rams').select()
 }
+
+
