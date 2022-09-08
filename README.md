@@ -3,6 +3,8 @@
 
 Project objective = A platform where users can view on a map different Ram incidents in Auckland 
 
+FIGMA PLANNING FILE = https://www.figma.com/file/2VGg9FfUxAnQAatUIaN8Ei/RAMDAR?node-id=0%3A1
+
 USER EXPERIENCE: 
 
 1) User arrives to a funky disclaimer page 
