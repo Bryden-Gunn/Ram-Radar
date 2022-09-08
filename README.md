@@ -39,5 +39,5 @@ CHANGES HISTORY : (please log your changes)
 3. Benson: db migration and seed setup and uploaded
 4. Setup basic route and api to call data from localhost:3000/api/v1/rams/
 5. Taylor: set up addRams() functions and POST route; able to push object into db "rams"
-
+6. Form setup, inputs => INSERTED into the db via POST route
 
