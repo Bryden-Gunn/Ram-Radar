@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { useNavigate } from 'react-router'
 import { addRams } from '../apiClient'
 
 // ADD SLICE...
@@ -29,7 +30,13 @@ function Form() {
       .catch((err) => {
         console.error(err)
       })
-    // navigate('/')
+    setForm({
+      plate: '',
+      latitude: '',
+      longitude: '',
+      month: '',
+      goods: '',
+    })
   }
 
   return (
