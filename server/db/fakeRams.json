@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "goods": "Cig",
+    "plate": "KCG447",
+    "month": "august",
+    "latitude": -36.870314,
+    "longitude": 174.767237
+  },
+  {
+    "id": 2,
+    "goods": "Vape juice stolen from some kids",
+    "plate": "KHJ447",
+    "month": "august",
+    "latitude": -36.868975,
+    "longitude": 174.761701
+  },
+  {
+    "id": 3,
+    "goods": "Cigs were stolen",
+    "plate": "TFJ949",
+    "month": "october",
+    "latitude": -36.870314,
+    "longitude": 174.767237
+  },
+  {
+    "id": 4,
+    "goods": "Chips",
+    "plate": "ULI748",
+    "month": "october",
+    "latitude": -36.863805,
+    "longitude": 174.779598,
+  }
+]
