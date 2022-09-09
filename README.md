@@ -32,7 +32,7 @@ db "rams"
 - longitude = number 
 - goods = "string"
 
-CHANGES HISTORY : (please log your changes) 
+MAIN CHANGES HISTORY : (please log your changes) 
 
 1. Benson & Taylor : add fakeRams.json to server/db/ folder for front end consumption
 2. Fred: Pulling and merging Fred's branch with form.jsx
@@ -40,4 +40,6 @@ CHANGES HISTORY : (please log your changes)
 4. Setup basic route and api to call data from localhost:3000/api/v1/rams/
 5. Taylor: set up addRams() functions and POST route; able to push object into db "rams"
 6. Form setup, inputs => INSERTED into the db via POST route; value is refreshed after submit
+7. Frey => add image files 
+8. Benson & Taylor => add CSS files 
 
