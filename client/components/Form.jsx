@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { useNavigate } from 'react-router'
+
 import { addRams } from '../apiClient'
 
 // ADD SLICE...
@@ -45,7 +45,7 @@ function Form() {
         <h1>Ram Radar Submissions</h1>
         <form>
           <div>
-            <label htmlFor="goods">Goods</label>
+            <label htmlFor="goods">Loot</label>
             <input
               type="text"
               name="goods"
