@@ -9,10 +9,11 @@
 
 body {
 
-
+  font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
-    background-color: rgb(222, 222, 222);
+    background: rgb(176,176,176);
+    background: linear-gradient(90deg, rgba(176,176,176,1) 0%, rgba(230,230,230,1) 89%);
 
 }
 
@@ -24,7 +25,7 @@ body {
 
 .ramform {
   margin-bottom: 4rem;
-  background-color: rgb(102, 102, 102);
+  background-color:rgb(226, 226, 226);
   border: 2px solid black;
   padding: 1rem;
   margin: 1rem;
@@ -53,9 +54,11 @@ body {
 
 }
 
-.rammap {
-
-  background-color:blue;
+.map {
+  border: 2px solid black;
+  border-radius: 2rem;
+  padding: 1rem;
+  
 
 }
 
@@ -63,17 +66,23 @@ body {
 .month {
   border: 2px solid black;
   border-radius: 2rem;
+  margin: 1rem;
   padding: 1rem;
-  background-color: beige;
+  
+  background-color:rgb(226, 226, 226);
 }
 
 .update {
 
+<<<<<<< HEAD
   background-color:rgb(126, 126, 126);
+=======
+
+>>>>>>> 3568e9b66a48b7cb12a58fdaf1f03224998149c1
   margin: 1rem;
   padding: 1rem;
-  border: 2px solid black;
-  border-radius: 2rem;
+
+
   width: 400px;
   height: 800px;
 }
