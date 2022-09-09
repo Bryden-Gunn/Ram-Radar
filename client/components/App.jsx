@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react'
 import { getRams } from '../apiClient'
 import Map from './Map'
+import Form from './Form'
+import Fake from './Fake'
 
 function App() {
   useEffect(() => {
@@ -14,6 +16,8 @@ function App() {
     <div>
       <h1>This is a template for Rams!</h1>
       <Map />
+      <Fake />
+      <Form />
     </div>
   )
 }

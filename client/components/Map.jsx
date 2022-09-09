@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api'
+import { GoogleMap, LoadScript } from '@react-google-maps/api'
 import Icon from './Icon'
 import { getRams } from '../apiClient'
 
