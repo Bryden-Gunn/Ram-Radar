@@ -45,7 +45,7 @@ function Form() {
         <h1>Ram Radar Submissions</h1>
         <form>
           <div>
-            <label htmlFor="goods">Goods</label>
+            <label htmlFor="goods">Loot</label>
             <input
               type="text"
               name="goods"
