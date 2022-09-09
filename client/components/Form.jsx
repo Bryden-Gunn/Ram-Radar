@@ -40,70 +40,72 @@ function Form() {
   }
 
   return (
-    <div>
-      <h1>Ram Radar Submissions</h1>
-      <form>
-        <div>
-          <label htmlFor="goods">Goods</label>
-          <input
-            type="text"
-            name="goods"
-            placeholder="Enter Goods stolen.."
-            onChange={handleChange}
-            value={form.goods}
-          />
-        </div>
+    <div className="content-container">
+      <div className="ramform">
+        <h1>Ram Radar Submissions</h1>
+        <form>
+          <div>
+            <label htmlFor="goods">Goods</label>
+            <input
+              type="text"
+              name="goods"
+              placeholder="Enter Goods stolen.."
+              onChange={handleChange}
+              value={form.goods}
+            />
+          </div>
 
-        <div>
-          <label htmlFor="plate">Number Plate</label>
-          <input
-            type="text"
-            name="plate"
-            placeholder="Enter Number plate.."
-            onChange={handleChange}
-            value={form.plate}
-          />
-        </div>
+          <div>
+            <label htmlFor="plate">Number Plate</label>
+            <input
+              type="text"
+              name="plate"
+              placeholder="Enter Number plate.."
+              onChange={handleChange}
+              value={form.plate}
+            />
+          </div>
 
-        <div>
-          <label htmlFor="latitude">Latitude</label>
-          <input
-            type="text"
-            name="latitude"
-            placeholder="Enter Latitude.."
-            onChange={handleChange}
-            value={form.latitude}
-          />
-        </div>
+          <div>
+            <label htmlFor="latitude">Latitude</label>
+            <input
+              type="text"
+              name="latitude"
+              placeholder="Enter Latitude.."
+              onChange={handleChange}
+              value={form.latitude}
+            />
+          </div>
 
-        <div>
-          <label htmlFor="longitude">Longitude</label>
-          <input
-            type="text"
-            name="longitude"
-            placeholder="Enter Longitude.."
-            onChange={handleChange}
-            value={form.longitude}
-          />
-        </div>
+          <div>
+            <label htmlFor="longitude">Longitude</label>
+            <input
+              type="text"
+              name="longitude"
+              placeholder="Enter Longitude.."
+              onChange={handleChange}
+              value={form.longitude}
+            />
+          </div>
 
-        <div>
-          <label htmlFor="month">Month</label>
-          <input
-            type="test"
-            name="month"
-            placeholder="Enter Month.."
-            onChange={handleChange}
-            value={form.month}
-          />
-        </div>
+          <div>
+            <label htmlFor="month">Month</label>
+            <input
+              type="test"
+              name="month"
+              placeholder="Enter Month.."
+              onChange={handleChange}
+              value={form.month}
+            />
+          </div>
 
-        <div>
-          <button type="button" onClick={handleSubmit}>
-            Submit
-          </button>
-        </div>
-      </form>
+          <div>
+            <button type="button" onClick={handleSubmit}>
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
     </div>
   )
 }
