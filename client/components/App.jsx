@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import { getRams } from '../apiClient'
+import Map from './Map'
 
 function App() {
   useEffect(() => {
@@ -12,6 +13,7 @@ function App() {
   return (
     <div>
       <h1>This is a template for Rams!</h1>
+      <Map />
     </div>
   )
 }
