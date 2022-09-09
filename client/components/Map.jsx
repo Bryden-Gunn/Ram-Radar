@@ -7,7 +7,7 @@ const key = process.env.GOOGLE_MAPS_API_KEY
 
 const containerStyle = {
   width: '100%',
-  height: '100vh',
+  height: '55vh',
   borderRadius: '2rem',
   marginBottom: '10px',
 }
@@ -18,7 +18,7 @@ const center = {
 }
 
 const mapOptions = {
-  mapId: 'ca2e7339e7168224',
+  mapId: '613bf17a4c9d1678',
   mapTypeControl: false,
   streetViewControl: false,
   fullscreenControl: false,
@@ -40,7 +40,7 @@ function Map() {
       <GoogleMap
         mapContainerStyle={containerStyle}
         center={center}
-        zoom={12}
+        zoom={12.25}
         options={mapOptions}
       >
         {rams.map((marker) => {

@@ -5,7 +5,7 @@ export default function Fake() {
   return (
     <>
       <div className="header">
-        <img src="images/ram_radar_title.png" alt="" width="90%" />
+        <img id="banner" src="images/ram_radar_title.png" alt="" />
       </div>
       <div className="content-container">
         <div className="mapbox">

@@ -8,7 +8,7 @@ function Icon(props) {
         url: '/images/ram_icon.png',
         scaledSize: { width: 56.6, height: 33.3 },
       }}
-      position={props.position}
+       position={props.position}
     />
   )
 }
