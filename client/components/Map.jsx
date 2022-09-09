@@ -33,7 +33,7 @@ function Map(props) {
     if (props.month == 'all') {
       return true
     } else if (props.month == '') {
-      return true
+      return false
     } else if (props.month == 'none') {
       return false
     } else if (ram.month == props.month) {

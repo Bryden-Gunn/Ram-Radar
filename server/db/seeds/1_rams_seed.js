@@ -135,7 +135,7 @@ exports.seed = (knex) => {
         },
         {
           id: 18,
-          month: 'october',
+          month: 'november',
           plate: 'SEX111',
           goods: 'cigs',
           latitude: -36.854322,
