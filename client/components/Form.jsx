@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { useNavigate } from 'react-router'
+
 import { addRams } from '../apiClient'
 
 // ADD SLICE...
