@@ -6,8 +6,10 @@ import { getRams } from '../apiClient'
 const key = process.env.GOOGLE_MAPS_API_KEY
 
 const containerStyle = {
-  width: '800px',
-  height: '800px',
+  width: '100%',
+  height: '100vh',
+  borderRadius: '2rem',
+  marginBottom: '10px',
 }
 
 const center = {

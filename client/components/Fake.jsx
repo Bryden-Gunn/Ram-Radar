@@ -1,4 +1,5 @@
 import React from 'react'
+import Map from './Map'
 
 export default function Fake() {
   return (
@@ -9,7 +10,7 @@ export default function Fake() {
       <div className="content-container">
         <div className="mapbox">
           <div className="map">
-            <p>map</p>
+            <Map />
           </div>
           <div className="month">enter month</div>
         </div>

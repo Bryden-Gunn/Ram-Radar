@@ -5,8 +5,8 @@ function Icon(props) {
   return (
     <Marker
       icon={{
-        url: '/icons/car-red-svgrepo-com.svg',
-        scaledSize: { width: 100, height: 100 },
+        url: '/images/ram_icon.png',
+        scaledSize: { width: 56.6, height: 33.3 },
       }}
       position={props.position}
     />
