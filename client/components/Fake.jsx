@@ -1,8 +1,7 @@
 import React from 'react'
 import Map from './Map'
-import Month from './Month'
 
-export default function Fake() {
+export default function Fake(props) {
   return (
     <>
       <div className="header">
@@ -11,9 +10,8 @@ export default function Fake() {
       <div className="content-container">
         <div className="mapbox">
           <div className="map">
-            <Map />
+            <Map month={props.month} />
           </div>
-          <Month />
         </div>
         <div className="update">
           <img src="images/ram_status.png" alt="" width="300px" />

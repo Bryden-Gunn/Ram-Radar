@@ -24,8 +24,24 @@ const mapOptions = {
   fullscreenControl: false,
 }
 
-function Map() {
+function Map(props) {
   const [rams, setRams] = useState([])
+
+  console.log('Month from Map component', props.month)
+
+  const filteredRams = rams.filter((ram) => {
+    if (props.month == 'all') {
+      return true
+    } else if (props.month == '') {
+      return true
+    } else if (props.month == 'none') {
+      return false
+    } else if (ram.month == props.month) {
+      return true
+    }
+  })
+
+  console.log(filteredRams)
 
   useEffect(() => {
     getRams()
@@ -35,6 +51,7 @@ function Map() {
       })
       .catch((err) => console.err(err.message))
   }, [])
+
   return (
     <LoadScript googleMapsApiKey={key}>
       <GoogleMap
@@ -43,7 +60,7 @@ function Map() {
         zoom={12.25}
         options={mapOptions}
       >
-        {rams.map((marker) => {
+        {filteredRams.map((marker) => {
           const position = {
             lat: marker.latitude,
             lng: marker.longitude,
