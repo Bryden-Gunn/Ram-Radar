@@ -41,7 +41,8 @@ body {
 #banner{
   width:60%;
   margin-left: 300px;
-input {
+}
+  input {
   display:block;
   width:30%;
   margin:10px 0;
