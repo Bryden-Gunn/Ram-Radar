@@ -71,7 +71,8 @@ body {
   border-radius: 2rem;
   margin: 1rem;
   padding: 1rem;
-  background-color: beige;
+  
+  background-color:rgb(226, 226, 226);
 }
 
 .update {

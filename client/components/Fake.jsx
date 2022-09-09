@@ -1,4 +1,5 @@
 import React from 'react'
+import Month from './Month'
 
 export default function Fake() {
   return (
@@ -11,7 +12,7 @@ export default function Fake() {
           <div className="map">
             <p>map</p>
           </div>
-          <div className="month">enter month</div>
+          <Month />
         </div>
         <div className="update">
           <img src="images/ram_status.png" alt="" width="300px" />
