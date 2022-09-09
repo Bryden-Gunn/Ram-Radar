@@ -9,10 +9,11 @@
 
 body {
 
-
+  font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
-    background-color: rgb(222, 222, 222);
+    background: rgb(176,176,176);
+    background: linear-gradient(90deg, rgba(176,176,176,1) 0%, rgba(230,230,230,1) 89%);
 
 }
 
@@ -24,7 +25,7 @@ body {
 
 .ramform {
   margin-bottom: 4rem;
-  background-color: aqua;
+  background-color:rgb(226, 226, 226);
   border: 2px solid black;
   padding: 1rem;
   margin: 1rem;
@@ -56,9 +57,11 @@ body {
 
 }
 
-.rammap {
-
-  background-color:blue;
+.map {
+  border: 2px solid black;
+  border-radius: 2rem;
+  padding: 1rem;
+  
 
 }
 
@@ -66,17 +69,18 @@ body {
 .month {
   border: 2px solid black;
   border-radius: 2rem;
+  margin: 1rem;
   padding: 1rem;
   background-color: beige;
 }
 
 .update {
 
-  background-color:coral;
+
   margin: 1rem;
   padding: 1rem;
-  border: 2px solid black;
-  border-radius: 2rem;
+
+
   width: 400px;
   height: 800px;
 }

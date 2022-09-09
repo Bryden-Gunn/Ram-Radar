@@ -14,7 +14,7 @@ export default function Fake() {
           <div className="month">enter month</div>
         </div>
         <div className="update">
-          <img src="images/ram_status.png" alt="" width="200px" />
+          <img src="images/ram_status.png" alt="" width="300px" />
         </div>
       </div>
     </>
