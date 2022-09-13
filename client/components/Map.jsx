@@ -7,7 +7,7 @@ const key = process.env.GOOGLE_MAPS_API_KEY
 
 const containerStyle = {
   width: '100%',
-  height: '55vh',
+  height: '78vh',
   borderRadius: '2rem',
   marginBottom: '10px',
 }

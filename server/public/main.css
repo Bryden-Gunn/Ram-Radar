@@ -36,11 +36,15 @@ body {
 .header {
   top: 0;
   border-radius: 2rem;
+  display: flex;
+  top: 0;
+  border-radius: 2rem;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 #banner{
-  width:60%;
-  /* margin-left: 300px; */
+ width: 60%;
 }
   input {
   display:block;
@@ -87,28 +91,20 @@ button:active:after {
   transition: 0s
 }
 
-.header {
-  top: 0;
-  border-radius: 2rem;
-}
 
 .mapbox {
-
   background-color:rgb(226, 226, 226);
   width: 2000px;
   margin: 1rem;
   padding: 1rem;
   border: 2px solid black;
   border-radius: 2rem;
-
 }
 
 .map {
   border: 2px solid black;
   border-radius: 2rem;
   padding: 1rem;
-  
-
 }
 
 
@@ -125,7 +121,7 @@ button:active:after {
   background-color:rgb(182, 182, 182);
   margin: 1rem;
   padding: 1rem;
-  max-width: 400px;
+  width:15%;
   height: 800px;
 }
 
@@ -136,17 +132,22 @@ button:active:after {
   left:64px
 }
 
+#radar-box{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width:12%;
+}
+
 #radarBed{
-  width:300px;
-  margin-left:50px;
-  margin-bottom:20px
+  width:100%
 }
 
 #radar{
-  position:relative;
-  width:170px;
-  right:1595px;
-  bottom: 80px
+  width:7%;
+  position: absolute;
+  z-index: 1;
+  margin: auto;
 }
 
 h2{

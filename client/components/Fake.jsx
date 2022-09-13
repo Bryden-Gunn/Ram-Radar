@@ -5,9 +5,11 @@ export default function Fake(props) {
   return (
     <>
       <div className="header">
-        <img id="radarBed" src="images/radar_bed.png" alt="" />
+        <div id="radar-box">
+          <img id="radar" src="images/radar_red.gif" alt="" />
+          <img id="radarBed" src="images/radar_bed.png" alt="" />
+        </div>
         <img id="banner" src="images/ram_radar_title.png" alt="" />
-        <img id="radar" src="images/radar_red.gif" alt="" />
       </div>
       <div className="content-container">
         <div className="mapbox">
