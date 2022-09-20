@@ -1,24 +1,16 @@
-import React, { useEffect, useState } from 'react'
-import { getRams } from '../apiClient'
+import React, { useState } from 'react'
 import Form from './Form'
-import Fake from './Fake'
+import Home from './Home'
 import Month from './Month'
 
 function App() {
   const [month, setMonth] = useState('')
 
-  useEffect(() => {
-    getRams()
-      .then((rams) => {
-        console.log(rams.body)
-      })
-      .catch((err) => console.err(err.message))
-  })
   return (
     <div>
-      <Fake month={month} />
-      <Month setMonth={setMonth} />
-      <Form />
+      <Home month={month} />
+      <Month setMonth={setMonth} month={month}/>
+      <Form setMonth={setMonth} />
     </div>
   )
 }

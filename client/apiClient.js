@@ -8,7 +8,6 @@ export function getRams() {
 }
 
 export function addRams(rams) {
-  console.log('hits the api')
   const { plate, latitude, longitude, month, goods } = rams
 
   return request

@@ -27,8 +27,6 @@ const mapOptions = {
 function Map(props) {
   const [rams, setRams] = useState([])
 
-  console.log('Month from Map component', props.month)
-
   const filteredRams = rams.filter((ram) => {
     if (props.month == 'all') {
       return true
@@ -41,16 +39,13 @@ function Map(props) {
     }
   })
 
-  console.log(filteredRams)
-
   useEffect(() => {
     getRams()
       .then((res) => {
-        console.log(res.body)
         setRams(res.body)
       })
       .catch((err) => console.err(err.message))
-  }, [])
+  }, [props])
 
   return (
     <LoadScript googleMapsApiKey={key}>

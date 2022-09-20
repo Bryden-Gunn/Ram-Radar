@@ -4,7 +4,7 @@ import { addRams } from '../apiClient'
 
 // ADD SLICE...
 
-function Form() {
+function Form(props) {
   const [form, setForm] = useState({
     plate: '',
     latitude: '',
@@ -20,23 +20,26 @@ function Form() {
     })
   }
 
+  const setMonth = props.setMonth
+
   async function handleSubmit(event) {
     event.preventDefault()
-
+    const month = form.month
     addRams(form)
       .then(() => {
-        console.log()
+        setMonth('')
+        setMonth(month)
+        setForm({
+          plate: '',
+          latitude: '',
+          longitude: '',
+          month: '',
+          goods: '',
+        })
       })
       .catch((err) => {
         console.error(err)
       })
-    setForm({
-      plate: '',
-      latitude: '',
-      longitude: '',
-      month: '',
-      goods: '',
-    })
   }
 
   return (
